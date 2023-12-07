@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Roboto&family=Ubuntu+Mono&display=swap');
+:root {
+    --dark: rgb(48, 46, 46);
+    --white: rgb(232, 232, 232);
+    --border-btn: 3px;
+    --blue: rgb(83, 83, 255);
+    --red: rgb(255, 46, 46);
+    --green: rgb(5, 210, 5);
+    --yellow: rgb(246, 246, 87);
+    --btn-padding: 7px;
+    --btn-large-p-b-t: 10px; 
+    --main-font: 'Roboto';
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+}
+
+.btn {
+    padding: 5;
+    cursor: pointer;
+}
+
+/* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON ================================================*/
+
+
+.btn-dark {
+    background-color: var(--dark);
+    border: none;
+    border-radius: var(--border-btn);
+    padding: var(--btn-padding);
+}
+.btn-blue {
+    background-color: var(--blue);
+    border: none;
+
+    border-radius: var(--border-btn);
+    padding: var(--btn-padding);
+}
+.btn-red {
+    background-color: var(--red);
+    border: none;
+    border-radius: var(--border-btn);
+    padding: var(--btn-padding);
+}
+
+.btn-green {
+    background-color: var(--green);
+    border: none;
+    border-radius: var(--border-btn);
+    padding: var(--btn-padding);
+}
+
+.btn-yellow {
+    background-color: var(--yellow);
+    border-radius: var(--border-btn);
+    border: none;
+    padding: var(--btn-padding);
+}
+
+.btn-light {
+    cursor: pointer;
+    border-radius: var(--border-btn);
+    padding: var(--btn-padding);
+}
+
+.btn-large {
+    padding: 30px;
+    padding-top: var(--btn-large-p-b-t);
+    padding-bottom: var(--btn-large-p-b-t);
+    border: none;
+}
+
+.btn-blue:active {
+    background-color: blue;
+}
+.btn-red:active {
+    background-color: rgb(231, 1, 1);
+}
+.btn-dark:active {
+    background-color: rgb(72, 70, 70);
+}
+.btn-yellow:active {
+    background-color: yellow;
+}
+.btn-green:active {
+    background-color: green;
+}
+
+.btn-light:active {
+    background-color: whitesmoke;
+}
+
+
+
+/* TEXT TEXT TEXT TEXT TEXT TEXT TEXT ================================================*/
+
+.text-dark {
+    color: var(--dark);
+}
+.text-white {
+    color: var(--white);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-light{ 
+    color: white;
+}
+
+.text-red {
+    color: var(--red);
+}
+
+/*         LAYOUTS LAYOUTS LAYOUTS LAYOUTS LAYOUTS ==========================               */
+.center-item {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex-display {
+    display: flex;
+}
+.flex-d {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.p-4 {
+    padding: 40px;
+}
+
+.p-5 {
+    padding: 50px;
+}
+
+.p-10 {
+    padding: 100px;;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.m-2 {
+    margin: 20px;
+}
+
+.m-3 {
+    margin: 30px;
+}
+
+.m-4 {
+    margin: 40px;
+}
+
+.m-5 {
+    margin: 50px;
+}
+
+.m-10 {
+    margin: 100px;;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vh-50 {
+    height: 100;
+}
+
+.vh-20 {
+    height: 20vh;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+
+/* BG-COLORS BG-COLORS BG-COLORS BG-COLORS BG-COLORS BG-COLORS BG-COLORS BG-COLORS*/
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-light {
+    background-color: var(--white);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+/* FONT SIZE FONT SIZE FONT SIZEFONT SIZEFONT SIZEFONT SIZE FONT SIZE FONT SIZE******/
+
+.f-3 {
+    font-size: 10px;
+}
+.f-2 {
+    font-size: 20px;
+}
+.f-3 {
+    font-size: 30px;
+}
+.f-4 {
+    font-size: 40px;
+}
+.f-5 {
+    font-size: 50px;
+}
+.f-6 {
+    font-size: 60px;
+}
+.f-7 {
+    font-size: 70px;
+}
+.f-8 {
+    font-size: 80px;
+}
+.f-9 {
+    font-size: 90px;
+}
+.f-10 {
+    font-size: 100px;
+}
+
+/* ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT */
+
+.alert-blue {
+    width: 50%;
+    color: var(--blue);
+    padding: 30px;
+    border: solid 3px var(--blue);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 78);
+}
+.alert-yellow {
+    width: 50%;
+    color: var(--yellow);
+    padding: 30px;
+    border: solid 3px var(--yellow);
+    border-radius: 10px;
+    background-color: rgb(105, 116, 3);
+}
+.alert-green {
+    width: 50%;
+    color: var(--green);
+    padding: 30px;
+    border: solid 3px var(--green);
+    border-radius: 10px;
+    background-color: rgb(0, 78, 33);
+}
+.alert-dark {
+    width: 50%;
+    color: var(--white);
+    padding: 30px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 48)
+}
+
+.alert-red {
+    width: 50%;
+    color: var(--red);
+    padding: 30px;
+    border: solid 3px var(--red);
+    border-radius: 10px;
+    background-color: rgb(78, 0, 0);
+}
